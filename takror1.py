@@ -1,0 +1,5 @@
+file = open('data.txt',"w")
+file.write("Mening ismim Muxammadamin\n")
+file.write("Mening yoshim 13 da \n")
+file.write("Men hozirda frontand ni yaxshi bilaman\n")
+file.close()
