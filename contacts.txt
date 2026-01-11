@@ -1,1 +1,2 @@
-MMMMessenger,000,-,-
+Kontact_Meneger,101,kontact@example.com,Google_Uzb_Center
+Onajonim,903668792,-,-

@@ -6,6 +6,7 @@ while True:
     amal = input(">>>")
 
     if amal == "0":
+        print("Siz dasturni yopdingiz!")
         break
     if amal == "1":
         file = open("contacts.txt", "r")
@@ -57,6 +58,6 @@ while True:
             email = "-"
             adres = "-"
         file = open("contacts.txt", "a")
-        file.write(ism + "," + telefon + "," + email + "," + adres + "\n")
+        file.write("\n" + ism + "," + telefon + "," + email + "," + adres)
         file.close()
         print("Saqlandi!")
