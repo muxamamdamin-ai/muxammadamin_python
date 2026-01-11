@@ -7,10 +7,7 @@ while True:
 
     if amal == "0":
         break
-
-    # 1. Kontaktlarni ko'rish
     if amal == "1":
-        # Avval faylni o'qib olamiz
         file = open("contacts.txt", "r")
         data = file.read().split("\n")
         file.close()
@@ -18,9 +15,6 @@ while True:
         yana = input("To'liq ma'lumot ko'rilsinmi? (1-ha, 0-yo'q): ")
         
         for qator in data:
-            if qator == "": # Bo'sh qator bo'lsa tashlab o'tamiz
-                continue
-                
             user = qator.split(",")
             ism = user[0]
             tel = user[1]
